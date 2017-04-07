@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rg-node-07
+  host: rg-node-07
+  disk_quota: 1024M
+  services:
+  - rg-node-07-cloudantNoSQLDB
